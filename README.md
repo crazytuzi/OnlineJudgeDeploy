@@ -7,3 +7,10 @@
 
 **镜像**
 - https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/
+
+**python3.6**
+- sudo apt-get install software-properties-common
+- sudo add-apt-repository ppa:jonathonf/python-3.6
+- sudo apt-get update
+- sudo apt-get install curl
+- curl https://bootstrap.pypa.io/get-pip.py | sudo python3.6
