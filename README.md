@@ -29,3 +29,13 @@
 	- grant all on *.* to root@'%' identified by '123456';
 	- flush privileges;
 	- sudo /etc/init.d/mysql restart
+
+**npm**
+- sudo apt-get install npm
+- npm install -g cnpm --registry=https://registry.npm.taobao.org
+- ln -s /usr/bin/nodejs /usr/bin/node
+- npm install n -g
+- n stable
+- cnpm install -g vue-cli
+- cnpm install
+- cnpm run dev
