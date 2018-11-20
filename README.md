@@ -18,6 +18,10 @@
 **安装python依赖包**
 - sudo pip3 install -r requirements.txt
 
+**卸载通过源码安装的包**
+- python setup.py install --record logName
+- cat logName | xargs rm -rf
+
 **Mysql**
 - sudo apt-get install mysql-server
 - sudo service mysql start
