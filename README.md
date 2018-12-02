@@ -30,7 +30,7 @@
 	- sudo gedit /etc/mysql/mysql.conf.d/mysqld.cnf
 	- 注释bind-address = 127.0.0.1
 	- mysql -u root -p
-	- grant all on *.* to root@'%' identified by '123456';
+	- grant all on \*.\* to root@'%' identified by '123456';
 	- flush privileges;
 	- sudo /etc/init.d/mysql restart
 
